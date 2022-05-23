@@ -1,0 +1,57 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}table{border-collapse:collapse;border-spacing:0}
+
+div, body {
+  background-color: black !important;
+}
+
+h1,h2,h3,h4,h5,h6,p,a {
+  color: white;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.greeting {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  padding-top: 100px;
+  font-family: 'EliceDigitalBaeum_Bold' !important;
+}
+
+.intro {
+  width: 500px;
+  height: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-title {
+  font-size: 26px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  display: grid;
+  background-color: black;
+  border: 1px solid white;
+  transition: all .1s ease;
+}
+
+.nav-label {
+  font-size: 20px;
+  font-weight: 500;
+}
