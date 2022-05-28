@@ -2,23 +2,86 @@
   <head>
     <title>준혁's 블로그</title>
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
     <link rel="stylesheet" href="style/global.css" />
     <link rel="stylesheet" href="style/font.css" />
+    <script src="./script/transition.js"></script>
+    <script src="./script/scroll.js"></script>
   </head>
 
   <body>
-    <nav class="nav --transition">
-      <a href="#introduce">
-        <p class="nav-label --transition">소개</p>
-      </a>
+    <nav class="nav">
+      <a class="nav-label --transition" href="#introduce"> 태스트1 </a>
+      <a class="nav-label --transition" href="#introduce"> 테스트2 </a>
+      <a class="nav-label --transition" href="#introduce"> 테스트3 </a>
+
+      <a href="#"></a>
     </nav>
     <div class="main">
       <h1 class="greeting">공사중...</h1>
       <div class="intro">
-        <h2 class="intro-title">About me...</h2>
-      </div>
+        <img
+          id="profile-image"
+          src="./image/profile_image.jpeg"
+          height="100%"
+        />
 
+        <div class="intro__simple">
+          <div class="intro__simple__detail">
+            <img
+              id="github-image"
+              src="./image/github.png"
+              width="50px"
+              height="50px"
+            />
+            <a class="simple__info-link" href="https://github.com/chap95">
+              My github
+            </a>
+          </div>
+
+          <div class="border"></div>
+          <p class="content__title">About Tech stack</p>
+          <div class="intro__tech-stack" id="tech-stack">
+            <div class="tech-stack-specfic">
+              <img src="./image/react.png" width="30px" height="30px" />
+              <p class="tech-stack-label">React</p>
+            </div>
+            <div class="tech-stack-specfic">
+              <div class="devicon-mask --rounded">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+                />
+              </div>
+              <p class="tech-stack-label">Next.js</p>
+            </div>
+
+            <div class="tech-stack-specfic">
+              <img
+                class="devicon-svg"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+              />
+
+              <p class="tech-stack-label">Typescript</p>
+            </div>
+
+            <div class="tech-stack-specfic">
+              <img
+                class="devicon-svg"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              />
+
+              <p class="tech-stack-label">Javascript</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="height: 100px"></div>
       <div id="number"></div>
     </div>
+
+    <div style="width: 100%; height: 1000px; background-color: red"></div>
   </body>
 </html>
